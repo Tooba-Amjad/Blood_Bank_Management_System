@@ -1,0 +1,54 @@
+body{
+   
+ 
+  
+   background-image: url(hello\ \(4\).jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-attachment: fixed;
+
+ }
+nav{
+    background-color: rgba(247, 86, 86, 0.932);
+    padding: 10px;
+    
+}
+h4{
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+.box-set{
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 30px;
+  margin-right: 30px;
+  
+}
+.box{
+  border: solid 2px rgba(10, 10, 10, 0.932) ;
+    
+    padding: 50px;
+}
+h1{
+  margin-top: 50px;
+  text-align: center;
+margin-bottom: 50px;
+}
+.info{
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.box1{
+  border: solid 2px black ;
+    
+    padding: 50px;
+}

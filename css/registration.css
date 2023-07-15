@@ -1,0 +1,67 @@
+body{
+    margin: 90px;
+    display: grid;
+     grid-template-columns: 1fr 4fr 1fr ;
+    background-image: url(3332.jpg);
+    background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed; 
+} 
+h1{
+    grid-column-start: 2;
+   grid-column-end: 2;
+   text-align: center;
+   color: white;
+}
+form{ 
+   /* margin: 50px; */
+    
+    margin-top: 30px;
+       padding: 30px; 
+   color: rgb(3, 3, 3);
+   
+   /*background-color: rgba(249, 249, 250, 0.884);*/
+   background-color:white;
+   box-shadow: 2px black ;
+   border-radius: 15px;
+   box-shadow: 2px 2px 5px 5px rgb(212, 125, 125) ;
+   grid-column-start: 2;
+   grid-column-end: 2;
+   
+   
+   
+   }
+   input{
+       
+         margin: 10px;
+         border: solid rgb(14, 12, 12) 1px;
+         padding-top: 10px;
+         border-radius: 5px;
+       height: auto;
+    width: auto;
+    
+   
+   }
+   input[type=password]{
+       
+      
+      border: solid rgb(14, 12, 12) 1px;
+      padding-top: 10px;
+      border-radius: 5px;
+    height: auto;
+   width: auto;
+   
+   
+   }
+   #loginbtn{
+      margin-left: 400px;
+      padding-right: 25px;
+   color: aliceblue;
+      background-color: rgba(221, 0, 0, 0.822);
+      padding-left: 20px;
+      padding-bottom: 5px;
+      padding-top: 5px;
+   border-radius: 5px;
+   
+   }
